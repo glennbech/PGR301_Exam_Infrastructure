@@ -4,7 +4,7 @@ terraform {
   prefix = "terraform-state"
   credentials = "terraform_keyfile.json"
   }
-}
+  }
 
 provider "google-beta" {
 credentials = file("terraform_keyfile.json")
