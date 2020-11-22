@@ -1,7 +1,15 @@
 terraform {
+  required_providers {
+    google = {
+      source = "hashicorp/google"
+    }
+  }
+}
+
+terraform {
   backend "gcs" {
     bucket = "examstatepgr3301bucket"
-    prefix = "terraformstate"
+    prefix = "tfstate"
     credentials = "key-file.json"
   }
 }
