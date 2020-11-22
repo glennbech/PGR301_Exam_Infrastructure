@@ -39,4 +39,4 @@ resource "google_cloud_run_service_iam_policy" "noauth" {
   project = google_cloud_run_service.exam-pgr201-devops.project
   service = google_cloud_run_service.exam-pgr201-devops.name
   policy_data = data.google_iam_policy.noauth.policy_data
-}
+ }
