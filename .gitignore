@@ -26,4 +26,4 @@ override.tf.json
 terraform.rc
 
 # For the secrets
-*_keyfile.json
+*terraform-key.json
