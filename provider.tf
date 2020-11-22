@@ -1,13 +1,13 @@
 terraform {
   backend "gcs" {
-    bucket = "exam-pgr301-bucket"
-  prefix = "terraform-state"
-  credentials = "terraform_keyfile.json"
+    bucket = "exampgr301bucket"
+    prefix = "terraformstate"
+    credentials = "terraform-key.json"
   }
-  }
+}
 
 provider "google-beta" {
-credentials = file("terraform_keyfile.json")
-project     = "dragonballz-296302"
-version = "~> 3.0.0-beta.1"
+  credentials = file("terraform-key.json")
+  project = "e-copilot-296419"
+  version = "~> 3.0.0-beta.1"
 }

@@ -2,6 +2,10 @@ variable "logz_token" {
 
 }
 
+variable "logz_url" {
+
+}
+
 variable "project_id" {
-  default = "dragonballz-296302"
+  default = "e-copilot-296419"
 }

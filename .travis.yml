@@ -1,19 +1,19 @@
 env:
   global:
-  - GCP_PROJECT_ID=dragonballz-296302
+  - GCP_PROJECT_ID=e-copilot-296419
   - tf_version=0.13.5
   - CLOUDSDK_CORE_DISABLE_PROMPTS=1
 branches:
   only:
   - master
 before_install:
-- openssl aes-256-cbc -K $encrypted_61dc43fb09f9_key -iv $encrypted_61dc43fb09f9_iv
-  -in terraform_keyfile.json.enc -out terraform_keyfile.json -d
+- openssl aes-256-cbc -K $encrypted_bc190e553c35_key -iv $encrypted_bc190e553c35_iv
+  -in terraform-key.json.enc -out terraform-key.json -d
 - curl https://sdk.cloud.google.com | bash > /dev/null
 - source "$HOME/google-cloud-sdk/path.bash.inc"
-- gcloud auth activate-service-account --key-file=terraform_keyfile.json
+- gcloud auth activate-service-account --key-file=terraform-key.json
 - gcloud config set project "${GCP_PROJECT_ID}"
-- export GOOGLE_APPLICATION_CREDENTIALS=./terraform_keyfile.json
+- export GOOGLE_APPLICATION_CREDENTIALS=./terraform-key.json
 - wget https://releases.hashicorp.com/terraform/"$tf_version"/terraform_"$tf_version"_linux_amd64.zip
 - unzip terraform_"$tf_version"_linux_amd64.zip
 - sudo mv terraform /usr/local/bin/
@@ -22,6 +22,8 @@ install: true
 script:
 - |-
   set -ex;
+  export TF_VAR_logz_token=$LOGZ_TOKEN
+  export TF_VAR_logz_url=$LOGZ_URL
   terraform init
   terraform plan
   terraform apply --auto-approve

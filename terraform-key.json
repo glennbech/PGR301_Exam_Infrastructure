@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "e-copilot-296419",
+  "private_key_id": "e73db2a4b8829d7b1629f9ce3959e09f8aa067e2",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC0CUadko6TuVI4\nb17W8xfp6kh7M76l0Xp/2Db4TxAo/oBlADhBM/2+yN30x+2k+8ib6b+t4CpffBx6\nqBsxSE8IDVZgHWQkoR8A7PAV68kGVZqVZSKW4TGhBZpHtuoE1pI4ZlJH6aCLtAOS\nDsceo0zU1Libbl571AB9e50UjiHHQwC2u66wDSXrTDKlvNiD0msG39UvSw8InvVq\nTAT5tZodMPPsFFZtvYuHZAOsdWzJx6xekRD7Psam6+pkI064TadOltFMsw6bTC42\nku0NbFTBfpeNVpIyEOBYkzV1n+lQgwWwiY4ZC46e30ay0RN3vi0psusqMFx0L63b\ne5BBp8rRAgMBAAECggEAVjJoulGsbMLaQEXmOPDLnsV6bW5BVZ+9UE9jRjCIcrAj\nJfhcdq9fSkRerG86cvbPvgJEsQl2ECBafElXN5nAqQDFvZ/kzfrMXsOSUVSB+0Pq\nDqQM0wM/oTIPA03qrmVTPaiTtXWAVdLasMfdgug5hV7Rgi1uFEhU8b9I3koMlxtK\nIprHSD56+f19wqvOvkjaBITIneGS7bOKikpf1ZeXp7mS0rdejnKR6gv6q88ydXe3\nxGfhSNJGSW/LCemAFvss5xwNddnLU9W4zrAXAI7AlMxKeAqIiqrTojXAYLKfRTVY\nwrrgrQE2jvbl5LiGDNkAZAr4DeoP2mtriE8gBUo4zwKBgQDdsHuINsqUy5WhU3Om\nLTaEKDpBYEwlVIEvHpYcUxjDm4TDV4Endfe2HpVmmEoL1CYaK+LKUEP7QPCGTMeT\novyx/7bl8PSGGRWruFh4QYq0k40urIHVi0nZzPCOdViLn2EDhlUNg5/BEFXmn4Nz\nrfpLyppo+yDLq4IbPWSajEZ5cwKBgQDP5nX7fk7hc2KVeyX1uO/ggtSLxVnA6W8J\nmCE+aVIntjFFLLePmeS+eWxU+2JlFAuduahFCeCTW8hvmfy12HREGTo5N7721XKd\nItbgqmZmQqae4+o8BQL7QvujgnN2zkqHaY5tqiIF8LC77NsgbXgkHhaYMm3tUwG6\n8Kq0BwnpqwKBgQC9ocVJ03SeqzcndLcsouhLTA3o9nKsTAjlQYiuWfaI/HMolaWJ\nF8P5KVgrFoHgdGzTXk71OIuuVPJqLytZAsadjFvrfZ3tR2/eICatV4NKzBysnCvD\new6FHGV5tq8zX/Ygibwff0QcZdjVGgXb4iqEwp4qxwZasi7tFisEeJGgOQKBgG6m\nyYrGajNiV0kaF1UWTk3fNEMEEcY0OA4SMzdllP1f4g9gQn6iuPWL6NW+Sltj9N7I\nzr+YBzhG9II5oiAjCZapGq0Td4cmie8KePVwnDm3JbmRsrypKjITL52SM+Q63b3+\nt3i0wZEJzvbmlKZIvVXz0bDFvm4+7L/Tkfdpe6QrAoGBAMfTXq2E9SCAow55ysdN\nsw/0eTgcxPtktycBFmMStBuMv08iZIVsbyOFTq5RrhfNItnxN5bWhSGcpzenh0Dc\n9IAT7IVgQOzCnGpeZZ+Jb4m5Yg1NmaI2feRpXroDlOBb8cC9V561vXhzm9xbnr4Z\nptnjycHGRnIVQPdCFEpYxq/c\n-----END PRIVATE KEY-----\n",
+  "client_email": "travisci-deployer@e-copilot-296419.iam.gserviceaccount.com",
+  "client_id": "111090019137165239849",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/travisci-deployer%40e-copilot-296419.iam.gserviceaccount.com"
+}
