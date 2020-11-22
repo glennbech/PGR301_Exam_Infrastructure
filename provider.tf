@@ -7,7 +7,7 @@ terraform {
 }
 
 provider "google-beta" {
+  version = "3.5.0"
   credentials = file("key-file.json")
   project = "e-copilot-296419"
-  version = "~> 3.0.0-beta.1"
 }
