@@ -11,4 +11,6 @@ provider "google-beta" {
 credentials = file("terraform_keyfile.json")
 project     = "dragonballz-296302"
 version = "~> 3.0.0-beta.1"
+  region  = "us-central1"
+  zone    = "us-central1-c"
 }

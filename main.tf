@@ -1,5 +1,5 @@
 resource "google_cloud_run_service" "dragonballz" {
-  name = "dragonballz-296302"
+  name = "dragonballz"
 location = "us-central1"
 project = var.project_id #referring to stored variable.tf file
 
