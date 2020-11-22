@@ -26,7 +26,7 @@ resource "google_cloud_run_service" "exam-pgr201-devops" {
 }
 
 data "google_iam_policy" "noauth" {
-  binding {
+  binding{
     role = "roles/run.invoker"
     members = [
       "allUsers",
