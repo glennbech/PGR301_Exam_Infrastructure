@@ -3,6 +3,9 @@ terraform {
     google = {
       source = "hashicorp/google"
     }
+    statuscake = {
+      source= "terraform-providers/statuscake"
+    }
   }
 }
 

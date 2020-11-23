@@ -10,11 +10,3 @@ resource "statuscake_test" "googlecloudruntest" {
   check_rate   = 300
   contact_group = ["195590"]
 }
-
-terraform {
-  required_providers {
-    statuscake = {
-      source = "terraform-providers/statuscake"
-    }
-  }
-}
