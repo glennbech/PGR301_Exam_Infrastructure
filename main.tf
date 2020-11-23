@@ -6,7 +6,7 @@ resource "google_cloud_run_service" "dbzexampgr301" {
   template {
     spec {
       containers {
-        image = "gcr.io/dbzexampgr301/dbzexampgr301@sha256:4d7445746f74a721a44120e726f47d0b5890d6d11559c64bbe0aaf15e1489baf"
+        image = "gcr.io/dbzexampgr301/dbzexampgr301@sha256:c5b3a1a207f65a009a5f11cc6825c673d0dcd271042c73e4f46ed332c3bfe54e"
         env {
           name = "LOGZ_TOKEN"
           #referring to stored variable.tf file
