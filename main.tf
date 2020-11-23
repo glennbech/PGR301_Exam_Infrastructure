@@ -16,6 +16,11 @@ resource "google_cloud_run_service" "dbzexampgr301" {
           name = "LOGZ_URL"
           value = var.logz_url
         }
+        resources {
+          limits = {
+            memory = "512Mi"
+          }
+        }
       }
     }
   }
