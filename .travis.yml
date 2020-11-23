@@ -1,6 +1,6 @@
 env:
   global:
-  - GCP_PROJECT_ID=e-copilot-296419
+  - GCP_PROJECT_ID=dbzexampgr301
   - tf_version=0.13.5
   - CLOUDSDK_CORE_DISABLE_PROMPTS=1
 branches:

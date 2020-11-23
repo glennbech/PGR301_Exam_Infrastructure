@@ -7,5 +7,5 @@ variable "logz_url" {
 }
 
 variable "project_id" {
-  default = "e-copilot-296419"
+  default = "dbzexampgr301"
 }

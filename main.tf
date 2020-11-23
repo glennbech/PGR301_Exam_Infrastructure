@@ -1,12 +1,12 @@
-resource "google_cloud_run_service" "exam-pgr201-devops" {
-  name = "e-copilot-296419"
+resource "google_cloud_run_service" "dbzexampgr301" {
+  name = "dbzexampgr301"
   location = "us-central1"
   project = var.project_id
 
   template {
     spec {
       containers {
-        image = "gcr.io/e-copilot-296419/exam-pgr201-devops@sha256:8903b3bbb8b0d910b30c96fb22cb39efc6a576f515235f3a6589290f0a03d2be"
+        image = "gcr.io/dbzexampgr301/dbzexampgr301@sha256:a60186936528a372f04ffa40af21f63968b9a6f0f571e4bf059700d385afa5b5"
         env {
           name = "LOGZ_TOKEN"
           #referring to stored variable.tf file
@@ -35,8 +35,8 @@ data "google_iam_policy" "noauth" {
 }
 
 resource "google_cloud_run_service_iam_policy" "noauth" {
-  location = google_cloud_run_service.exam-pgr201-devops.location
-  project = google_cloud_run_service.exam-pgr201-devops.project
-  service = google_cloud_run_service.exam-pgr201-devops.name
+  location = google_cloud_run_service.dbzexampgr301.location
+  project = google_cloud_run_service.dbzexampgr301.project
+  service = google_cloud_run_service.dbzexampgr301.name
   policy_data = data.google_iam_policy.noauth.policy_data
  }
