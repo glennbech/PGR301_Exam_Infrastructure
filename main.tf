@@ -6,7 +6,7 @@ resource "google_cloud_run_service" "exam-pgr201-devops" {
   template {
     spec {
       containers {
-        image = "gcr.io/e-copilot-296419/exam-pgr201-devops@sha256:479de57f99dbde551dd47ff08eba5157cc059ae854d8d5f50d8b3a94eca42613"
+        image = "gcr.io/e-copilot-296419/exam-pgr201-devops@sha256:8903b3bbb8b0d910b30c96fb22cb39efc6a576f515235f3a6589290f0a03d2be"
         env {
           name = "LOGZ_TOKEN"
           #referring to stored variable.tf file
